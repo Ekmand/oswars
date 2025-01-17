@@ -3,7 +3,7 @@ import { Power, MessageSquare, Users2, ArrowRight } from 'lucide-react';
 
 const teams = [
   {
-    name: "Red OS",
+    name: "Red",
     banner: "https://cdn.serverse.org/oswars/redbanner.png",
     description: "Power and performance unite in Red OS. Our aggressive optimization and cutting-edge architecture make us the force to be reckoned with. Victory runs in our code!",
     discordLink: "https://discord.gg/bcRHxJZSQv",
@@ -12,7 +12,7 @@ const teams = [
     bgGradient: "from-red-900/20 to-rose-900/20"
   },
   {
-    name: "Blue OS",
+    name: "Blue",
     banner: "https://cdn.serverse.org/oswars/bluebanner.png",
     description: "Stability meets innovation in Blue OS. Our streamlined workflow and robust security make us the clear choice for champions. The future is cerulean!",
     discordLink: "https://discord.gg/zge52hxqgR",
@@ -21,7 +21,7 @@ const teams = [
     bgGradient: "from-blue-900/20 to-cyan-900/20"
   },
   {
-    name: "Green OS",
+    name: "Green",
     banner: "https://cdn.serverse.org/oswars/greenbanner.png",
     description: "Efficiency flows through Green OS. Our eco-friendly design and sustainable performance prove that green is the new black. Nature's choice will prevail!",
     discordLink: "https://discord.gg/3MgtQ4DjaZ",
@@ -30,7 +30,7 @@ const teams = [
     bgGradient: "from-green-900/20 to-emerald-900/20"
   },
   {
-    name: "Amber OS",
+    name: "Amber",
     banner: "https://cdn.serverse.org/oswars/amberbanner.png",
     description: "Classic meets modern in Amber OS. Our timeless design philosophy and golden standard of reliability make us unstoppable. The legacy lives on!",
     discordLink: "https://discord.gg/rJYuGxGhpJ",
@@ -119,7 +119,7 @@ function App() {
                     </p>
                     <div className="flex flex-wrap gap-4">
                       <a 
-                        href={`#${team.name.toLowerCase().replace(' ', '-')}-profile`}
+                        href={`#${team.name.toLowerCase()}.oswars.org`}
                         className={`inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r ${team.gradient} hover:${team.hoverGradient} text-white font-semibold transition-all duration-300 group/button`}
                       >
                         Team Profile
