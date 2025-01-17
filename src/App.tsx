@@ -6,7 +6,7 @@ const teams = [
     name: "Red OS",
     banner: "https://cdn.serverse.org/oswars/redbanner.png",
     description: "Power and performance unite in Red OS. Our aggressive optimization and cutting-edge architecture make us the force to be reckoned with. Victory runs in our code!",
-    discordLink: "#red-team",
+    discordLink: "https://discord.gg/bcRHxJZSQv",
     gradient: "from-red-500 to-rose-500",
     hoverGradient: "from-red-600 to-rose-600",
     bgGradient: "from-red-900/20 to-rose-900/20"
@@ -15,7 +15,7 @@ const teams = [
     name: "Blue OS",
     banner: "https://cdn.serverse.org/oswars/bluebanner.png",
     description: "Stability meets innovation in Blue OS. Our streamlined workflow and robust security make us the clear choice for champions. The future is cerulean!",
-    discordLink: "#blue-team",
+    discordLink: "https://discord.gg/zge52hxqgR",
     gradient: "from-blue-500 to-cyan-500",
     hoverGradient: "from-blue-600 to-cyan-600",
     bgGradient: "from-blue-900/20 to-cyan-900/20"
@@ -24,7 +24,7 @@ const teams = [
     name: "Green OS",
     banner: "https://cdn.serverse.org/oswars/greenbanner.png",
     description: "Efficiency flows through Green OS. Our eco-friendly design and sustainable performance prove that green is the new black. Nature's choice will prevail!",
-    discordLink: "#green-team",
+    discordLink: "https://discord.gg/3MgtQ4DjaZ",
     gradient: "from-green-500 to-emerald-500",
     hoverGradient: "from-green-600 to-emerald-600",
     bgGradient: "from-green-900/20 to-emerald-900/20"
@@ -33,7 +33,7 @@ const teams = [
     name: "Amber OS",
     banner: "https://cdn.serverse.org/oswars/amberbanner.png",
     description: "Classic meets modern in Amber OS. Our timeless design philosophy and golden standard of reliability make us unstoppable. The legacy lives on!",
-    discordLink: "#amber-team",
+    discordLink: "https://discord.gg/rJYuGxGhpJ",
     gradient: "from-amber-500 to-yellow-500",
     hoverGradient: "from-amber-600 to-yellow-600",
     bgGradient: "from-amber-900/20 to-yellow-900/20"
@@ -158,7 +158,7 @@ function App() {
               to participate, spectate, and celebrate!
             </p>
             <a 
-              href="#main-discord" 
+              href="https://discord.gg/3vshGHDPNB" 
               className="inline-flex items-center px-8 py-4 rounded-xl bg-[#5865F2] hover:bg-[#4752C4] text-white font-semibold transition-all duration-300 transform hover:scale-105 group"
             >
               <MessageSquare className="w-6 h-6 mr-2" />
