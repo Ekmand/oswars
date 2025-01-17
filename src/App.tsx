@@ -4,7 +4,7 @@ import { Power, MessageSquare, Users2, ArrowRight } from 'lucide-react';
 const teams = [
   {
     name: "Red OS",
-    banner: "https://images.unsplash.com/photo-1584291527935-456e8e2dd734?auto=format&fit=crop&q=80&w=1200",
+    banner: "/assets/banners/redbanner.png",
     description: "Power and performance unite in Red OS. Our aggressive optimization and cutting-edge architecture make us the force to be reckoned with. Victory runs in our code!",
     discordLink: "#red-team",
     gradient: "from-red-500 to-rose-500",
@@ -13,7 +13,7 @@ const teams = [
   },
   {
     name: "Blue OS",
-    banner: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1200",
+    banner: "/assets/banners/bluebanner.png",
     description: "Stability meets innovation in Blue OS. Our streamlined workflow and robust security make us the clear choice for champions. The future is cerulean!",
     discordLink: "#blue-team",
     gradient: "from-blue-500 to-cyan-500",
@@ -22,7 +22,7 @@ const teams = [
   },
   {
     name: "Green OS",
-    banner: "https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?auto=format&fit=crop&q=80&w=1200",
+    banner: "/assets/banners/greenbanner.png",
     description: "Efficiency flows through Green OS. Our eco-friendly design and sustainable performance prove that green is the new black. Nature's choice will prevail!",
     discordLink: "#green-team",
     gradient: "from-green-500 to-emerald-500",
@@ -31,7 +31,7 @@ const teams = [
   },
   {
     name: "Amber OS",
-    banner: "https://images.unsplash.com/photo-1548504769-900b70ed122e?auto=format&fit=crop&q=80&w=1200",
+    banner: "/assets/banners/amberbanner.png",
     description: "Classic meets modern in Amber OS. Our timeless design philosophy and golden standard of reliability make us unstoppable. The legacy lives on!",
     discordLink: "#amber-team",
     gradient: "from-amber-500 to-yellow-500",
