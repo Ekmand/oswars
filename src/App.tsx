@@ -119,7 +119,7 @@ function App() {
                     </p>
                     <div className="flex flex-wrap gap-4">
                       <a 
-                        href={`#${team.name.toLowerCase().replace(' ', '-')}-profile`}
+                        href={`https://${team.toLowerCase().replace(' ', '-')}.oswars.org`}
                         className={`inline-flex items-center px-6 py-3 rounded-xl bg-gradient-to-r ${team.gradient} hover:${team.hoverGradient} text-white font-semibold transition-all duration-300 group/button`}
                       >
                         Team Profile
