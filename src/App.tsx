@@ -4,7 +4,7 @@ import { Power, MessageSquare, Users2, ArrowRight } from 'lucide-react';
 const teams = [
   {
     name: "Red OS",
-    banner: "/assets/banners/redbanner.png",
+    banner: "https://cdn.serverse.org/oswars/redbanner.png",
     description: "Power and performance unite in Red OS. Our aggressive optimization and cutting-edge architecture make us the force to be reckoned with. Victory runs in our code!",
     discordLink: "#red-team",
     gradient: "from-red-500 to-rose-500",
@@ -13,7 +13,7 @@ const teams = [
   },
   {
     name: "Blue OS",
-    banner: "/assets/banners/bluebanner.png",
+    banner: "https://cdn.serverse.org/oswars/bluebanner.png",
     description: "Stability meets innovation in Blue OS. Our streamlined workflow and robust security make us the clear choice for champions. The future is cerulean!",
     discordLink: "#blue-team",
     gradient: "from-blue-500 to-cyan-500",
@@ -22,7 +22,7 @@ const teams = [
   },
   {
     name: "Green OS",
-    banner: "/assets/banners/greenbanner.png",
+    banner: "https://cdn.serverse.org/oswars/greenbanner.png",
     description: "Efficiency flows through Green OS. Our eco-friendly design and sustainable performance prove that green is the new black. Nature's choice will prevail!",
     discordLink: "#green-team",
     gradient: "from-green-500 to-emerald-500",
@@ -31,7 +31,7 @@ const teams = [
   },
   {
     name: "Amber OS",
-    banner: "/assets/banners/amberbanner.png",
+    banner: "https://cdn.serverse.org/oswars/amberbanner.png",
     description: "Classic meets modern in Amber OS. Our timeless design philosophy and golden standard of reliability make us unstoppable. The legacy lives on!",
     discordLink: "#amber-team",
     gradient: "from-amber-500 to-yellow-500",
